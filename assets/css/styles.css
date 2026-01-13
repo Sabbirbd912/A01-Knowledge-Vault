@@ -1,6 +1,103 @@
-body {
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
+* {
+  box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 20px 40px;
+}
+
+.header-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav a {
+  color: #111;
+  text-decoration: none;
+  margin: 0 16px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: #30b868;
+  color: white;
+  padding: 16px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 16px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.hero-section {
+  background: #111111 url("../img/essential/hero-bg.png") no-repeat center
+    center;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 100px 40px 0 40px;
+}
+
+.hero-title {
+  font-size: 44px;
+  font-weight: 700;
+  text-align: center;
+}
+.hero-actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 16px;
+  text-align: center;
+}
+
+.features-section {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 80px 40px;
+  width: 100%;
+  height: 448px;
+}
+.feature-container {
+  min-width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.feature-header {
+
+  text-align: center;
+  color: #111111;
+}
+
+.feature-cards {
+color: #111111;
+}
